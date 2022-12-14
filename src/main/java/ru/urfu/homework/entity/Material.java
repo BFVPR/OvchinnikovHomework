@@ -1,6 +1,7 @@
 package ru.urfu.homework.entity;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "materials")

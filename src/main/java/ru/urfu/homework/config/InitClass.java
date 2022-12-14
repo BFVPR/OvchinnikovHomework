@@ -1,10 +1,11 @@
-package ru.urfu.homework.configure;
+package ru.urfu.homework.config;
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.urfu.homework.Service.MaterialsService;
 import ru.urfu.homework.entity.Material;
+
+import javax.annotation.PostConstruct;
 
 @Component
 public class InitClass {
